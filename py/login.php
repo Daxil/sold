@@ -4,6 +4,7 @@ if(isset($_POST['go'])){
 
     // Include file which makes the
     // Database Connection.
+
     $mail = $_POST["mail"];
     $pass = $_POST["pass"];
     if(!$pass || !$mail){
@@ -11,20 +12,22 @@ if(isset($_POST['go'])){
     }
 
     if(!$error){
-      $result = $mysql -> query("SELECT * FROM `users` WHERE `mail` = $mail and `pass` = $pass");
-      $user = $result -> fetch_assoc();
-      if(count($user)==0){
-        echo "no valid";
-        exit();
+      $query = "SELECT * FROM users WHERE mail = '$mail' AND pass = '$pass'";
+      $result = mysqli_query($conn, $query);
+      $row = mysqli_fetch_assoc($result);
+
+      if(mysqli_num_rows($result) > 0){
+        // User found, redirect to home page or perform necessary tasks
+        echo "Авторизация успешна!";
       }
-      print_r($user);
-      exit();
+      else{
+        // User not found
+        echo "Пользователь не найден";
+      }
     }
     else{
       echo $error; exit;
     }
-
-
   }
 ?>
 <!DOCTYPE html>
