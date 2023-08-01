@@ -1,16 +1,14 @@
 <?php
 include 'dbconnect.php';
-
+if (!empty($_COOKIE['login'])) {
+  header("Location: login/profile.php");
+  die();
+}
 if(isset($_POST['go'])) {
     $name = $_POST["name"];
     $fullname = $_POST["fullname"];
     $mail = $_POST["mail"];
     $pass = $_POST["pass"];
-
-    if(!$pass || !$mail) {
-        $error = 'Вы не ввели почту или пароль';
-    }
-
     if(!$error) {
         $query = "SELECT * FROM users WHERE mail = '$mail' AND pass = '$pass'";
         $result = mysqli_query($conn, $query);
@@ -18,15 +16,17 @@ if(isset($_POST['go'])) {
 
         if(mysqli_num_rows($result) > 0) {
             // User found, redirect to profile page
-            header("Location: profile.php?name=" . urlencode($row["name"]));
-            exit;
-        } else {
-            // User not found
-            $error = "Пользователь не найден";
+            setcookie('login', $mail, 0 ,"/");
+            header("Location: login/profile.php");
+            die();
         }
-    } else {
-        echo $error;
-        exit;
+        else{
+          echo "<table>";
+          echo "<tr>";
+          echo "<td>Вы ввели почту или пароль не верно</td>";
+          echo "</tr>";
+          echo "</table>";
+        }
     }
 }
 ?>
@@ -190,7 +190,6 @@ if(isset($_POST['go'])) {
       <a href="#!">Forgot password?</a>
     </div>
   </div>
-
   <!-- Submit button -->
     <button type="submit" name='go' class="btn btn-primary btn-block mb-4">Войти</button>
 

@@ -1,4 +1,19 @@
+<?php
+include 'dbconnect.php';
 
+// Проверяем, был ли запрос на выход
+if(isset($_GET['logout'])) {
+    // Удаляем переменную сессии с именем пользователя
+    setcookie('login', '', time() - 3600, '/');
+    header("Location: ./../login.php");
+  exit();
+}
+if(isset($_GET['main'])) {
+  header("Location: indexgo.php");
+  exit();
+}
+
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -16,13 +31,14 @@
   <body>
 <header>
   <div class="main"style="display:inline-block;">
-    <a href="index.php" class="label">SOLD|EX</a>
+    <a href="indexgo.php" class="label">SOLD|EX</a>
 
-    <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
+      <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
     <a href="#" class="sell">Продать</a>
     <a href="#" class="bar">Купить</a>
-    <a href="login.php" class="bar">Войти</a>
-    <a href="reg.php" class="reg">Регистрация</a>
+    <a href="profile.php" class="sell">Профиль</a>
+      <a href="?logout=1" class="bar">Выйти</a>
+
   </div>
     <nav id="menu" style="position:inherit">
              <div class="menu-item">

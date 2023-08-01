@@ -1,28 +1,42 @@
 <?php
 include 'dbconnect.php';
-if(isset($_POST['go'])){
 
-    // Include file which makes the
-    // Database Connection.
+if (!empty($_COOKIE['login'])) {
+    header("Location: login/profile.php");
+    die();
+}
 
+if (isset($_POST['go'])) {
     $name = $_POST["name"];
     $fullname = $_POST["fullname"];
     $mail = $_POST["mail"];
     $pass = $_POST["pass"];
-    if(!$pass || !$mail){
-      $error = 'Вы не ввели почту или пароль';
-    }
 
-    if(!$error){
-      $query = "INSERT INTO `users` (`id`, `name`, `fullname`, `mail`, `pass`) VALUES (NULL, '$name', '$fullname', '$mail', '$pass');";
-      mysqli_query($conn, $query);
+    if (empty($name) || empty($fullname) || empty($mail) || empty($pass)) {
+        echo "<table>";
+        echo "<tr>";
+        echo "<td>Нужно заполнить все поля для регистрации</td>";
+        echo "</tr>";
+        echo "</table>";
+    } else {
+        // Проверяем существование пользователя с такой почтой в базе данных
+        $checkQuery = "SELECT id FROM users WHERE mail = '$mail'";
+        $result = mysqli_query($conn, $checkQuery);
+        if (mysqli_num_rows($result) > 0) {
+            echo "<table>";
+            echo "<tr>";
+            echo "<td>Пользователь с такой почтой уже зарегистрирован</td>";
+            echo "</tr>";
+            echo "</table>";
+        } else {
+            $query = "INSERT INTO users (id, name, fullname, mail, pass) VALUES (NULL, '$name', '$fullname', '$mail', '$pass');";
+            mysqli_query($conn, $query);
+            setcookie('login', $mail, 0 ,"/");
+            header("Location: login/profile.php");
+            die();
+        }
     }
-    else{
-      echo $error; exit;
-    }
-
-
-  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
