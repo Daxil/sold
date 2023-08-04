@@ -1,50 +1,28 @@
 <?php
 include 'dbconnect.php';
 
-if (!empty($_COOKIE['login'])) {
-    header("Location: login/profile.php");
-    die();
+// Проверяем, был ли запрос на выход
+if(isset($_GET['logout'])) {
+    // Удаляем переменную сессии с именем пользователя
+    setcookie('login', '', time() - 3600, '/');
+    header("Location: ./../login.php");
+  exit();
+}
+if(isset($_GET['main'])) {
+  header("Location: indexgo.php");
+  exit();
 }
 
-if (isset($_POST['go'])) {
-    $name = $_POST["name"];
-    $fullname = $_POST["fullname"];
-    $mail = $_POST["mail"];
-    $pass = $_POST["pass"];
-
-    if (empty($name) || empty($fullname) || empty($mail) || empty($pass)) {
-        echo "<table>";
-        echo "<tr>";
-        echo "<td>Нужно заполнить все поля для регистрации</td>";
-        echo "</tr>";
-        echo "</table>";
-    } else {
-        // Проверяем существование пользователя с такой почтой в базе данных
-        $checkQuery = "SELECT id FROM users WHERE mail = '$mail'";
-        $result = mysqli_query($conn, $checkQuery);
-        if (mysqli_num_rows($result) > 0) {
-            echo "<table>";
-            echo "<tr>";
-            echo "<td>Пользователь с такой почтой уже зарегистрирован</td>";
-            echo "</tr>";
-            echo "</table>";
-        } else {
-            $query = "INSERT INTO users (id, name, fullname, mail, pass) VALUES (NULL, '$name', '$fullname', '$mail', '$pass');";
-            mysqli_query($conn, $query);
-        }
-    }
-}
-?>
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css\cart.css?<?echo time();?>">
   <link rel="stylesheet" type="text/css" href="css\css.css?<?echo time();?>">
-  <link rel="stylesheet" type="text/css" href="css\login.css?<?echo time();?>">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="login\adoptaition\frstAdopt.css?<?echo time();?>">
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="adoptaition\frstAdopt.css?<?echo time();?>">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -52,57 +30,16 @@ if (isset($_POST['go'])) {
     <title></title>
   </head>
   <body>
-    <?php
-
-    if($showAlert) {
-
-        echo ' <div class="alert alert-success
-            alert-dismissible fade show" role="alert">
-
-            <strong>Success!</strong> Your account is
-            now created and you can login.
-            <button type="button" class="close"
-                data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">×</span>
-            </button>
-        </div> ';
-    }
-
-    if($showError) {
-
-        echo ' <div class="alert alert-danger
-            alert-dismissible fade show" role="alert">
-        <strong>Error!</strong> '. $showError.'
-
-       <button type="button" class="close"
-            data-dismiss="alert aria-label="Close">
-            <span aria-hidden="true">×</span>
-       </button>
-     </div> ';
-   }
-
-    if($exists) {
-        echo ' <div class="alert alert-danger
-            alert-dismissible fade show" role="alert">
-
-        <strong>Error!</strong> '. $exists.'
-        <button type="button" class="close"
-            data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-        </button>
-       </div> ';
-     }
-
-?>
 <header>
   <div class="main"style="display:inline-block;">
-    <a href="index.php" class="label">SOLD|EX</a>
+    <a href="indexgo.php" class="label">SOLD|EX</a>
 
-    <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
+      <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
     <a href="#" class="sell">Продать</a>
     <a href="#" class="bar">Купить</a>
-    <a href="login.php" class="bar">Войти</a>
-    <a href="#" class="reg">Регистрация</a>
+    <a href="profile.php" class="sell">Профиль</a>
+      <a href="?logout=1" class="bar">Выйти</a>
+
   </div>
     <nav id="menu" style="position:inherit">
              <div class="menu-item">
@@ -209,70 +146,8 @@ if (isset($_POST['go'])) {
 
   </div>
 </header>
-<form class="LogForm"  method="post">
-  <div class="soForm">
-    <!-- 2 column grid layout with text inputs for the first and last names -->
-    <div class="row mb-4">
-      <div class="col">
-        <div class="form-outline">
-          <input type="text" class="form-control" id="name"
-            name="name" aria-describedby="emailHelp">
-          <label class="form-label" for="form3Example1">Имя</label>
-        </div>
-      </div>
-      <div class="col">
-        <div class="form-outline">
-          <input type="text" class="form-control" id="fullname" name="fullname">
-          <label class="form-label" for="form3Example2">Фамилия</label>
-        </div>
-      </div>
-    </div>
 
-    <!-- Email input -->
-    <div class="form-outline mb-4">
-      <input type="email"class="form-control" id="mail" name="mail">
-      <label class="form-label" for="form3Example3">Почта</label>
-    </div>
 
-    <!-- Password input -->
-    <div class="form-outline mb-4">
-      <input type="password" class="form-control" id="pass" name="pass">
-      <label class="form-label" for="form3Example4">Пароль</label>
-    </div>
-
-    <!-- Checkbox -->
-    <div class="form-check d-flex justify-content-center mb-4">
-      <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-      <label class="form-check-label" for="form2Example33">
-        Подписаться на новости
-      </label>
-    </div>
-
-    <!-- Submit button -->
-    <button type="submit" name='go' class="btn btn-primary btn-block mb-4">Зарегистрироваться</button>
-
-    <!-- Register buttons -->
-    <div class="text-center">
-      <p>or sign up with:</p>
-      <button type="button" class="btn btn-secondary btn-floating mx-1">
-        <i class="fab fa-facebook-f"></i>
-      </button>
-
-      <button type="button" class="btn btn-secondary btn-floating mx-1">
-        <i class="fab fa-google"></i>
-      </button>
-
-      <button type="button" class="btn btn-secondary btn-floating mx-1">
-        <i class="fab fa-twitter"></i>
-      </button>
-
-      <button type="button" class="btn btn-secondary btn-floating mx-1">
-        <i class="fab fa-github"></i>
-      </button>
-    </div>
-
-</div>
-</form>
 </body>
 
     <script src="js.js?<?echo time();?>"></script>

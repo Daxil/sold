@@ -40,6 +40,7 @@ if(isset($_POST['go'])) {
   <link rel="stylesheet" type="text/css" href="css\login.css?<?echo time();?>">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="login\adoptaition\frstAdopt.css?<?echo time();?>">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">

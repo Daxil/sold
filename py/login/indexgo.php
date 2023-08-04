@@ -1,3 +1,4 @@
+
 <?php
 include 'dbconnect.php';
 
@@ -22,6 +23,7 @@ if(isset($_GET['main'])) {
   <link rel="stylesheet" type="text/css" href="css\css.css?<?echo time();?>">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="adoptaition\frstAdopt.css?<?echo time();?>">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -94,7 +96,8 @@ if(isset($_GET['main'])) {
                  </div>
                 <div class="sub-menu triple" style="margin-top:-70px;">
 
-                     <div class="box">
+
+<div class="box">
                          <h3>Your Journey</h3>
                          <a href="#">Get Started</a>
                          <a href="#">Learn the Basics</a>
@@ -152,23 +155,23 @@ if(isset($_GET['main'])) {
 
   <!-- The two texts -->
   <div id="container">
-  	<span id="text1"></span>
-  	<span id="text2"></span>
+    <span id="text1"></span>
+    <span id="text2"></span>
   </div>
 
   <!-- The SVG filter used to create the merging effect -->
   <svg id="filters">
-  	<defs>
-  		<filter id="threshold">
-  			<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
-  			<feColorMatrix in="SourceGraphic"
-  					type="matrix"
-  					values="1 0 0 0 0
-  									0 1 0 0 0
-  									0 0 1 0 0
-  									0 0 0 255 -140" />
-  		</filter>
-  	</defs>
+    <defs>
+      <filter id="threshold">
+        <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+        <feColorMatrix in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+      </filter>
+    </defs>
   </svg>
 
 </main>
@@ -179,6 +182,7 @@ if(isset($_GET['main'])) {
   <div class="page-inner" >
     <h4 class="lastAdd">Последнее добавленное:</h4>
     <div class="row" style="  display:inline-block;">
+      <a href="card.php" style="text-decoration: none;" class="cardAll">
       <div class="el-wrapper"style="margin:40px">
         <div class="box-up">
           <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
@@ -195,154 +199,16 @@ if(isset($_GET['main'])) {
             <div class="h-bg-inner"></div>
           </div>
 
-          <a class="cart" href="#">
+          <a class="cart" href="card.php">
             <span class="price">$120</span>
           </a>
         </div>
       </div>
+      </a>
 
     </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
+    </div>
       </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 </body>
 

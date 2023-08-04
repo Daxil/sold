@@ -1,4 +1,19 @@
+<?php
+include 'dbconnect.php';
 
+// Проверяем, был ли запрос на выход
+if(isset($_GET['logout'])) {
+    // Удаляем переменную сессии с именем пользователя
+    setcookie('login', '', time() - 3600, '/');
+    header("Location: ./../login.php");
+  exit();
+}
+if(isset($_GET['main'])) {
+  header("Location: indexgo.php");
+  exit();
+}
+
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,6 +22,7 @@
   <link rel="stylesheet" type="text/css" href="css\css.css?<?echo time();?>">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="login\adoptaition\frstAdopt.css?<?echo time();?>">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -163,6 +179,7 @@
   <div class="page-inner" >
     <h4 class="lastAdd">Последнее добавленное:</h4>
     <div class="row" style="  display:inline-block;">
+      <a href="login.php" style="text-decoration: none;" class="cardAll">
       <div class="el-wrapper"style="margin:40px">
         <div class="box-up">
           <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
@@ -179,154 +196,16 @@
             <div class="h-bg-inner"></div>
           </div>
 
-          <a class="cart" href="#">
+          <a class="cart" href="login.php">
             <span class="price">$120</span>
           </a>
         </div>
       </div>
+      </a>
 
     </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
+    </div>
       </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="  display:inline-block;">
-      <div class="el-wrapper" style="margin:40px">
-        <div class="box-up">
-          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
-          <div class="img-info">
-            <div class="info-inner">
-              <span class="p-name">I feel like Pablo</span>
-              <span class="p-company">Yeezy</span>
-            </div>
-
-          </div>
-        </div>
-        <div class="box-down">
-          <div class="h-bg">
-            <div class="h-bg-inner"></div>
-          </div>
-
-          <a class="cart" href="#">
-            <span class="price">$120</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 </body>
 
