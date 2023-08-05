@@ -21,6 +21,10 @@
     font-size: 14pt;
     margin-left: -65px;
   }
+  #container {
+  	top: -13%;
+
+  }
 
 }
 @media (max-width: 1345px) {

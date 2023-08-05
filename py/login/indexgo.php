@@ -177,97 +177,115 @@ if(isset($_GET['main'])) {
 
 </main>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="slider">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="slider">
 	<div class="slide-track">
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\adidas.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\amiri.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\bale.png " height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\bape.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\cdg.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\Ch.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\dior.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\gucci.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\lv.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\MM.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\MMY.jpg" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\nike.jpg" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\raf.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\RO.png" height="100" width="250" alt="" />
 		</div>
+    <div class="slide">
+      <img src="img\SUP.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="img\under.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="img\yohgi.png" height="100" width="250" alt="" />
+    </div>
 	</div>
 </div><br><div class="slider2">
 	<div class="slide-track2">
-		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+    <div class="slide">
+			<img src="img\adidas.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\amiri.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\bale.png " height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\bape.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\cdg.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\Ch.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\dior.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\gucci.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\lv.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\MM.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\MMY.jpg" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\nike.jpg" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\raf.png" height="100" width="250" alt="" />
 		</div>
 		<div class="slide">
-			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+			<img src="img\RO.png" height="100" width="250" alt="" />
 		</div>
+    <div class="slide">
+      <img src="img\SUP.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="img\under.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="img\yohgi.png" height="100" width="250" alt="" />
+    </div>
 	</div>
-</div><br><br><br><br><br><br><br><br>
+</div><br><br><br><br>
 
 <div class="container page-wrapper">
   <div class="page-inner" >
