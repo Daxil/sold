@@ -22,6 +22,7 @@ if(isset($_GET['main'])) {
   <link rel="stylesheet" type="text/css" href="css\cart.css?<?echo time();?>">
   <link rel="stylesheet" type="text/css" href="css\css.css?<?echo time();?>">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="css\footer.css?<?echo time();?>">
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="adoptaition\frstAdopt.css?<?echo time();?>">
 
@@ -33,7 +34,7 @@ if(isset($_GET['main'])) {
   <body>
 <header>
   <div class="main"style="display:inline-block;">
-    <a href="indexgo.php" class="label">SOLD|EX</a>
+    <a href="indexgo.php" class="label">reused</a>
 
       <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
     <a href="#" class="sell">Продать</a>
@@ -176,7 +177,97 @@ if(isset($_GET['main'])) {
 
 </main>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div><br><div class="slider2">
+	<div class="slide-track2">
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://avatars.mds.yandex.net/i?id=9314afba1855d9fe41ea552cc7aea99f137bfee7-9205558-images-thumbs&n=13" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div><br><br><br><br><br><br><br><br>
 
 <div class="container page-wrapper">
   <div class="page-inner" >
@@ -209,7 +300,44 @@ if(isset($_GET['main'])) {
     </div>
     </div>
       </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <footer class="page-footer">
+          <div class="container bootom">
+        <div class="row">
+          <div class="col-sm-8" style="font-size: 21pt; margin-left: -80px; ">Для Клиентов</div>
+          <div class="col-sm-4"  style="font-size: 21pt; margin-left: 60px;" >О нас</div>
+        </div>
+        <div class="spis" style="margin-left: -120px;">
 
+
+        <div class="row">
+          <div class="col-sm-8"> <a href="#" style="text-decoration: none; color: black;">Помощь и контакты</a> </div>
+
+          <div class="col-sm-4"> <a href="#" style="text-decoration: none; color: black;">Наша История</a> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8"> <a href="#" style="text-decoration: none; color: black;">Вопросы и ответы</a> </div>
+
+          <div class="col-sm-4"> <a href="#" style="text-decoration: none; color: black;">Вакансии</a> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8"> <a href="#" style="text-decoration: none; color: black;">Заказы и доставка</a> </div>
+
+          <div class="col-sm-4"> <a href="#" style="text-decoration: none; color: black;">Для продавцов</a> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8"> <a href="#" style="text-decoration: none; color: black;">Цены и оплата</a> </div>
+
+          <div class="col-sm-4"> <a href="#" style="text-decoration: none; color: black;">Политика конфедициальности</a> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8"> <a href="#" style="text-decoration: none; color: black;">Гарантии</a> </div>
+
+          <div class="col-sm-4"> <a href="#" style="text-decoration: none; color: black;">Условия пользования</a> </div>
+        </div>
+          </div>
+      </div>
+        </footer>
 </body>
 
     <script src="js.js?<?echo time();?>"></script>

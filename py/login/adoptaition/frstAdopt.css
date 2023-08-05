@@ -7,6 +7,10 @@
   margin-right: 20%;
 }
 
+  .menu-item .sub-menu.triple {
+      min-width: 20.25em;
+  }
+
 .data{
   font-size: 15pt;
   margin-left: -70px;
@@ -17,6 +21,7 @@
     font-size: 14pt;
     margin-left: -65px;
   }
+
 }
 @media (max-width: 1345px) {
   .data{
@@ -45,6 +50,10 @@
 .label{
   margin-right: 4%;
 }
+.menu-item .sub-menu.triple {
+    min-width: 16.25em;
+    min-height: 18.25em;
+}
 }
 @media (max-width: 800px) {
 .label{
@@ -67,5 +76,5 @@
 }
 }
 @media (max-width: 580px){
-  
+
 }

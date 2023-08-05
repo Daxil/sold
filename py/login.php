@@ -50,7 +50,7 @@ if(isset($_POST['go'])) {
   <body>
 <header>
   <div class="main"style="display:inline-block;">
-    <a href="index.php" class="label">SOLD|EX</a>
+    <a href="index.php" class="label">reused</a>
 
     <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
     <a href="#" class="sell">Продать</a>
