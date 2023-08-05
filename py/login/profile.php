@@ -150,10 +150,9 @@ if(isset($_GET['main'])) {
 
     </div>
   </header>
+<img src="img/bg.png" alt="" class="bg">
   <main>
-
-
-    <div class="pageProf" style="  z-index: -1;">
+  <div class="pageProf" style="  z-index: -1;">
             <div class="bottProf">
 
               <div class="grid" style="row-gap: 0;" >
@@ -162,7 +161,7 @@ if(isset($_GET['main'])) {
 
                     </div>
                     <?php
-                   echo " ". htmlspecialchars($_COOKIE['login']);
+                  echo " ". htmlspecialchars($_COOKIE['login']);
                      ?>
                   </div>
 
