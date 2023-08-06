@@ -3,11 +3,28 @@ main{
   height: 800px;
 }
 .mainPhoto{
-  width: 500px;
+  max-width: 500px;
+  min-width:380px;
   height: 500px;
-  background-image: url('https://media.endclothing.com/media/catalog/product/2/2/22-05-2019_rickowens_geobasketsneaker_blackmilk_ru19f4894-0911_aj_1.jpg');
-  background-repeat: no-repeat;
+  /*background-image: url('https://media.endclothing.com/media/catalog/product/2/2/22-05-2019_rickowens_geobasketsneaker_blackmilk_ru19f4894-0911_aj_1.jpg');
+*/  background-repeat: no-repeat;
   background-size: cover;
+}
+.semePhoto{
+  max-width: 500px;
+  min-width:450px;
+  height: 202px;
+  display:inline-block;
+  background-color: none;
+  border-top:  1px solid rgba(170, 170, 170, 0.8);
+    border-bottom:  1px solid rgba(170, 170, 170, 0.8);
+}
+.dopPhoto{
+  width: 96px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid white;
+  display:inline-block;
 }
 .mainText{
   width: 100%;
@@ -103,6 +120,45 @@ font-family: 'Montserrat', sans-serif;
 .CardPhotoAdopt{
   display: none;
 }
+#slider-container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+
+      content: "";
+      overflow: hidden;
+
+}
+#slider-track {
+  display: flex;
+  width: fit-content; /* устанавливаем ширину пропорционально количеству изображений */
+  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#prev-button {
+
+  height: 400px;
+
+
+}
+
+#next-button {
+  right: 0px;
+  height: 400px;
+}
+
 @media (max-width: 1000px) {
 .CardPhoto{
   display: none;

@@ -150,8 +150,10 @@ if(isset($_GET['main'])) {
 
     </div>
   </header>
-<img src="img/bg.png" alt="" class="bg">
+<img src="img/bg.png" class="bg" alt="">
+<img src="img/balePen.png" class="bgAdopt" alt="">
   <main>
+
   <div class="pageProf" style="  z-index: -1;">
             <div class="bottProf">
 

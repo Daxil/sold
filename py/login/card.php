@@ -19,6 +19,7 @@ if(isset($_GET['main'])) {
   <head>
     <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css\cart.css?<?echo time();?>">
+    <link rel="stylesheet" type="text/css" href="adoptaition\cardAdopt.css?<?echo time();?>">
   <link rel="stylesheet" type="text/css" href="css\css.css?<?echo time();?>">
     <link rel="stylesheet" type="text/css" href="css\inCard.css?<?echo time();?>">
     <link rel="stylesheet" type="text/css" href="css\footer.css?<?echo time();?>">
@@ -160,6 +161,33 @@ if(isset($_GET['main'])) {
 
       <div class="col">
         <div class="mainPhoto">
+          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="500px" height="500px" alt="">
+        </div>
+        <div class="semePhoto">
+          <a href="#" class="block" onclick="event.preventDefault();">
+          <div class=" dopPhoto">
+             <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="96px" height="100px" alt="">
+           </div></a>
+          <a href="#" class="block" onclick="event.preventDefault();">
+          <div class=" dopPhoto">
+             <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_2_1.jpg" width="96px" height="100px" alt="">
+           </div></a>
+           <a href="#" class="block" onclick="event.preventDefault();">
+           <div class=" dopPhoto">
+              <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_3_1.jpg" width="96px" height="100px" alt="">
+            </div></a>
+            <a href="#" class="block" onclick="event.preventDefault();">
+            <div class=" dopPhoto">
+               <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_4_1.jpg" width="96px" height="100px" alt="">
+             </div></a>
+             <a href="#" class="block" onclick="event.preventDefault();">
+             <div class=" dopPhoto">
+                <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_5_1.jpg" width="96px" height="100px" alt="">
+              </div></a>
+              <a href="#" class="block" onclick="event.preventDefault();">
+              <div class=" dopPhoto">
+                 <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_m7_1.jpg" width="96px" height="100px" alt="">
+               </div></a>
 
         </div>
         </div>
@@ -203,6 +231,7 @@ if(isset($_GET['main'])) {
         </div>
       </div>
     </div>
+    <br><br><br><br><br>
     <div class="opisanie">
       <h5>Описание:</h5>
       <h6 class="textOpisanie"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
@@ -215,6 +244,33 @@ if(isset($_GET['main'])) {
 
       <div class="col">
         <div class="mainPhoto">
+          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="500px" height="500px" alt="">
+        </div>
+        <div class="semePhoto">
+          <a href="#" class="block" onclick="event.preventDefault();">
+          <div class=" dopPhoto">
+             <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="96px" height="100px" alt="">
+           </div></a>
+          <a href="#" class="block" onclick="event.preventDefault();">
+          <div class=" dopPhoto">
+             <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_2_1.jpg" width="96px" height="100px" alt="">
+           </div></a>
+           <a href="#" class="block" onclick="event.preventDefault();">
+           <div class=" dopPhoto">
+              <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_3_1.jpg" width="96px" height="100px" alt="">
+            </div></a>
+            <a href="#" class="block" onclick="event.preventDefault();">
+            <div class=" dopPhoto">
+               <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_4_1.jpg" width="96px" height="100px" alt="">
+             </div></a>
+             <a href="#" class="block" onclick="event.preventDefault();">
+             <div class=" dopPhoto">
+                <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_5_1.jpg" width="96px" height="100px" alt="">
+              </div></a>
+              <a href="#" class="block" onclick="event.preventDefault();">
+              <div class=" dopPhoto">
+                 <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_m7_1.jpg" width="96px" height="100px" alt="">
+               </div></a>
 
         </div>
         </div>
@@ -268,8 +324,206 @@ if(isset($_GET['main'])) {
     </div>
   </div>
   </div>
+
 </main>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<div id="slider-container">
+  <div id="slider-track">
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <a href="card.php" style="text-decoration: none;" class="cardAll">
+    <div class="el-wrapper"style="margin:40px">
+      <div class="box-up">
+        <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">I feel like Pablo</span>
+            <span class="p-company">Yeezy</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-down">
+        <div class="h-bg">
+          <div class="h-bg-inner"></div>
+        </div>
+
+        <a class="cart" href="card.php">
+          <span class="price"style="margin-left: 20px;">$120</span>
+        </a>
+      </div>
+    </div>
+    </a>
+
+
+  </div>
+  <button id="prev-button">
+    <img src="img/left.png" alt="">
+  </button>
+  <button id="next-button">
+    <img src="img/right.png" alt="">
+  </button>
+</div>
+<br><br><br>
         <footer class="page-footer">
     <div class="container bootom">
   <div class="row">
@@ -310,6 +564,86 @@ if(isset($_GET['main'])) {
 </body>
 
     <script src="js.js?<?echo time();?>"></script>
+    <script type="text/javascript">
+    function slider() {
+    const sliderContainer = document.getElementById('slider-container');
+    const sliderTrack = document.getElementById('slider-track');
+
+    const images = sliderTrack.getElementsByTagName('img');
+    const imageWidth = images[0].clientWidth;
+
+    let currentIndex = 0;
+    let slideInterval;
+
+    function startSlide() {
+      slideInterval = setInterval(nextSlide, 30000);
+    }
+
+    function nextSlide() {
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+      sliderTrack.style.transform = `translateX(-${imageWidth * currentIndex}px)`;
+    }
+
+    function prevSlide() {
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+      }
+      sliderTrack.style.transform = `translateX(-${imageWidth * currentIndex}px)`;
+    }
+
+    function swipeSlide(direction) {
+      if (direction === 'left') {
+        nextSlide();
+      } else if (direction === 'right') {
+        prevSlide();
+      }
+    }
+
+    sliderContainer.addEventListener('mouseenter', () => {
+      clearInterval(slideInterval);
+    });
+
+    sliderContainer.addEventListener('mouseleave', () => {
+      startSlide();
+    });
+
+    const prevButton = document.getElementById('prev-button');
+    const nextButton = document.getElementById('next-button');
+
+    prevButton.addEventListener('click', () => {
+      prevSlide();
+    });
+
+    nextButton.addEventListener('click', () => {
+      nextSlide();
+    });
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    sliderContainer.addEventListener('touchstart', (event) => {
+      touchStartX = event.touches[0].clientX;
+    });
+
+    sliderContainer.addEventListener('touchend', (event) => {
+      touchEndX = event.changedTouches[0].clientX;
+      const swipeDistance = touchEndX - touchStartX;
+      if (swipeDistance > 0) {
+        swipeSlide('right');
+      } else if (swipeDistance < 0) {
+        swipeSlide('left');
+      }
+    });
+
+    startSlide();
+  }
+
+  slider();
+    </script>
     <script  src="card.js?<?echo time();?>"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

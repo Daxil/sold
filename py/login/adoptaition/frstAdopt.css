@@ -44,6 +44,7 @@
   width: 100%;
 }
 }
+
 @media (max-width: 950px) {
   .data{
     font-size: 11pt;
@@ -57,6 +58,12 @@
 .menu-item .sub-menu.triple {
     min-width: 16.25em;
     min-height: 18.25em;
+}
+.bgAdopt{
+  display: block;
+}
+.bg{
+  display: none;
 }
 }
 @media (max-width: 800px) {

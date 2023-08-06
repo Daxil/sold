@@ -34,7 +34,7 @@ if(isset($_GET['main'])) {
   <body>
 <header>
   <div class="main"style="display:inline-block;">
-    <a href="indexgo.php" class="label">reused</a>
+    <a href="indexgo.php" class="label">reused.</a>
 
       <input type="text" name="" value="" placeholder="Поиск"class="search" ></input>
     <a href="#" class="sell">Продать</a>
