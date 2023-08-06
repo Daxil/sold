@@ -1,10 +1,27 @@
-@media (max-width: 1020px){
+@media (max-width: 1000px){
   .page-footer{
-    margin-top: 500px;
+    margin-top: 0px;
   }
+#slider-container{
+  margin-top: 400px;
+}
+.Oforml{
+  margin-top: 100px;
+
+}
 }
 @media (max-width: 480px){
   .semePhoto{
     width: 400px;
   }
+.mainPhoto{
+  margin-top: 100px;
+}
+#slider-container{
+  margin-top: 700px;
+}
+.Oforml{
+  margin-top: 100px;
+
+}
 }

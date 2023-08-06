@@ -26,7 +26,7 @@ if(isset($_GET['main'])) {
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="adoptaition\frstAdopt.css?<?echo time();?>">
-
+<link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -161,7 +161,8 @@ if(isset($_GET['main'])) {
 
       <div class="col">
         <div class="mainPhoto">
-          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="500px" height="500px" alt="">
+          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="500px" height="500px"alt="">
+
         </div>
         <div class="semePhoto">
           <a href="#" class="block" onclick="event.preventDefault();">
@@ -228,6 +229,11 @@ if(isset($_GET['main'])) {
             </div>
             <br><br>
           </div>
+          <div class="Oforml">
+
+
+<span class="bton">Оформить заказ</span>
+</div>
         </div>
       </div>
     </div>
@@ -244,7 +250,7 @@ if(isset($_GET['main'])) {
 
       <div class="col">
         <div class="mainPhoto">
-          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" width="500px" height="500px" alt="">
+          <img src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/1/9/19-02-2021_SI_RU21S-6894-LPO-111111_1_1.jpg" class="ph" alt="">
         </div>
         <div class="semePhoto">
           <a href="#" class="block" onclick="event.preventDefault();">
@@ -319,9 +325,15 @@ if(isset($_GET['main'])) {
               </div>
           </div>
         </div>
-      </div>
 
+      </div>
+      <div class="Oforml">
+
+
+  <span class="bton">Оформить заказ</span>
+  </div>
     </div>
+
   </div>
   </div>
 
@@ -527,10 +539,10 @@ if(isset($_GET['main'])) {
         <footer class="page-footer">
     <div class="container bootom">
   <div class="row">
-    <div class="col-sm-8" style="font-size: 21pt; margin-left: -80px; ">Для Клиентов</div>
-    <div class="col-sm-4"  style="font-size: 21pt; margin-left: 60px;" >О нас</div>
+    <div class="col-sm-8" style="font-size: 21pt; margin-left: -80px; "></div>
+    <div class="col-sm-4"  style="font-size: 21pt; margin-left: 60px;" ></div>
   </div>
-  <div class="spis" style="margin-left: -120px;">
+  <div class="spis" style="margin-left:0px;">
 
 
   <div class="row">
