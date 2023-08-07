@@ -12,12 +12,15 @@ main{
 }
 .semePhoto{
   max-width: 500px;
-  min-width:450px;
   height: 202px;
   display:inline-block;
   background-color: none;
   border-top:  1px solid rgba(170, 170, 170, 0.8);
 
+}
+.topPhoto{
+  width: 500px;
+height: 500px;
 }
 .ph{
   width: 380px;
@@ -45,8 +48,6 @@ font-family: 'Montserrat', sans-serif;
   margin-right: auto;
   width: 130px;
   height: 50px;
-  background-color: rgba(170, 170, 170, 0.8);
-  border: 1px solid rgba(170, 170, 170, 0.8);
   text-align: center;
 
 
@@ -176,7 +177,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .CardPhotoAdopt{
-  display: none;
+
 }
 #slider-container {
   position: relative;
@@ -211,17 +212,37 @@ button {
 
 
 }
-
+.cardtextAdopt{
+  display: none;
+}
 #next-button {
   right: 0px;
   height: 400px;
 }
 
 @media (max-width: 1000px) {
-.CardPhoto{
+.cardtext{
   display: none;
 }
-.CardPhotoAdopt{
+.cardtextAdopt{
   display: block;
+}
+.Oforml{
+  margin-top: 0;
+}
+#slider-container{
+  margin-top: 550px;
+}
+}
+@media (max-width: 550px) {
+  .topPhoto{
+    width: 370px;
+  height: 370px;
+  }
+}
+@media (max-width: 481px) {
+
+#slider-container{
+  margin-top: 780px;
 }
 }
