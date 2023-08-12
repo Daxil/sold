@@ -1,0 +1,255 @@
+@media (max-width: 1030px){
+.mainInfo-change{
+  width: 70%;
+  height: 900px;
+}
+.input-mail{
+  margin: 0px 0px 50px 120px ;
+}
+.input-name{
+  margin: 50px 0px 50px 120px ;
+}
+.pass-mail{
+    margin: 0px 50px 0px 120px ;
+}
+.bg3{
+  margin-left: 0%;
+  margin-top: 900px;
+}
+.pass-mail, label{
+  margin-left: 120px;
+}
+.save{
+  margin-left: 180px;
+}
+.zakazInfo-change{
+  width: 70%;
+  height: 600px;
+  position: absolute;
+  margin-top: -900px;
+  display: none;
+  border: 1px solid black;
+  overflow: auto;
+  background-color: white;
+}
+.zamerInfo-change{
+  width: 80%;
+  height: 600px;
+}
+.block1{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.block2{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+}
+@media (max-width:775px){
+  .avatar{
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  .mainInfo-change{
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .input-mail{
+    margin: 0px 0px 50px 120px ;
+  }
+  .input-name{
+    margin: 50px 0px 50px 120px ;
+  }
+  .pass-mail{
+      margin: 0px 50px 0px 120px ;
+  }
+  .bg3{
+    margin-left: 0%;
+    margin-top: 900px;
+  }
+  .pass-mail, label{
+    margin-left: 120px;
+  }
+  .save{
+    margin-left: 180px;
+
+}
+.bg3{
+  margin-left: 0%;
+  margin-top: 1400px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+  }
+  .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+    margin-left: 50px;
+  }
+.zakazInfo-change{
+    margin-top: -785px;
+    margin-left: 0;
+    width: 100%
+  }
+.cardAll{
+  width: 310;
+  margin-left: 20%;
+}
+.zamerInfo-change{
+  width: 100%;
+height: 1200px;
+    margin-left: 0;
+    margin-top: -785px;
+  }
+.block1{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.block2{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.adresInfo-change{
+  margin-top: -785px;
+  margin-left: 0px;
+  width: 100%;
+}
+}
+@media (max-width:555px){
+  .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+    margin-left: 30px;
+  }
+  .input-mail{
+    margin: 0px 0px 50px 80px ;
+  }
+  .input-name{
+    margin: 50px 0px 50px 80px ;
+  }
+  .pass-mail{
+      margin: 0px 50px 0px 80px ;
+  }
+  .pass-mail, label{
+    margin-left: 80px;
+  }
+  .save{
+    margin-left: 140px;
+
+  }
+  .block1{
+
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .block2{
+
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+}
+@media (max-width:485px){
+  .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .input-mail{
+    margin: 0px 0px 50px 50px ;
+  }
+  .input-name{
+    margin: 50px 0px 50px 50px ;
+  }
+  .pass-mail{
+      margin: 0px 50px 0px 50px ;
+  }
+  .pass-mail, label{
+    margin-left: 50px;
+  }
+  .save{
+    margin-left: 110px;
+
+  }
+}
+@media (max-width:410px){
+  .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+    margin-left: 0px;
+  }
+  .input-mail{
+    margin: 0px 0px 50px 30px ;
+  }
+  .input-name{
+    margin: 50px 0px 50px 30px ;
+  }
+  .pass-mail{
+      margin: 0px 50px 0px 30px ;
+  }
+  .pass-mail, label{
+    margin-left: 30px;
+  }
+  .save{
+    margin-left: 90px;
+
+  }
+  .block1{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 00px;
+    margin-top: 50px;
+  }
+  .block2{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+@media (max-width:350px){
+  .input-mail{
+    margin: 0px 0px 50px 20px ;
+  }
+  .input-name{
+    margin: 50px 0px 50px 20px ;
+  }
+  .pass-mail{
+      margin: 0px 50px 0px 20px ;
+  }
+  .pass-mail, label{
+    margin-left: 20px;
+  }
+  .save{
+    margin-left: 60px;
+
+  }
+}

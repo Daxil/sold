@@ -80,13 +80,13 @@ font-family: 'PT Sans Narrow', sans-serif;
   margin: 13px;
   text-decoration: none;
   transition: .7s;
-  border: 7px solid snow;
+  border: 7px solid white;
 
 }
 .sell{
   font-size: 13pt;
   font-family: 'Almarai', sans-serif;
-  color: snow;
+  color: white;
   margin: 13px;
   background-color: black;
   text-decoration: none;
@@ -105,8 +105,8 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 .sell:hover{
   transition: .7s;
-  background-color: snow;
-  border: 7px solid snow;
+  background-color: white;
+  border: 7px solid white;
   color: black;
 }
 .bar:hover{
@@ -121,8 +121,8 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 .reg:hover{
   transition: .7s;
-  background-color: snow;
-  border: 7px solid snow;
+  background-color: white;
+  border: 7px solid white;
   color: black;
 }
 nav {
@@ -260,7 +260,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     display: grid;
     grid-template-columns: 55% 45%;
     z-index: 9;
-    background-color: snow;
+    background-color: white;
     border: 1px solid rgba(195, 195, 195, 0.8);
     border-radius: 0;
     padding-left: 2em;

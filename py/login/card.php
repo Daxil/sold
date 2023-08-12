@@ -585,7 +585,7 @@ if(isset($_GET['main'])) {
     <img src="img/left.png" alt="">
   </button>
   <button id="next-button">
-    <img src="img/right.png" alt="">
+    <img src="img/righ.png" alt="">
   </button>
 </div>
 <br><br><br>
